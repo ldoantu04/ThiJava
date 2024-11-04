@@ -1,0 +1,13 @@
+create table tbNhanvien(
+	MaNV varchar(50) primary key,
+	Hoten nvarchar(50),
+	Diachi nvarchar(50),
+	Luong int
+)
+
+insert into tbHocvien(MaHV,Hoten,Lop,GT,Diem)
+values
+('ma1', N'Lê Doãn Tú', N'Hà Nội', 10),
+('ma2', N'Lê Doãn Tú2', N'Hải Phòng', 20),
+('ma3', N'Lê Doãn Tú3', N'Nam Định', 25);
+
